@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "webTests": "npx playwright test --grep @web",
+    "apiTests": "npx playwright test --grep @api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.0.3",
+    "allure-playwright": "^3.3.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
